@@ -3973,6 +3973,10 @@ input[type="button"].btn--primary:focus {
     text-align: center;
 }
 
+.row-ray {
+    justify-content: center;
+    gap: 10px;
+}
 /* ------------------------------------------------------------------- 
  * ## portfolio list
  * ------------------------------------------------------------------- */
@@ -3983,9 +3987,10 @@ input[type="button"].btn--primary:focus {
 
 .folio-item__thumb {
     display: block;
-    background-color: white;
     position: relative;
     overflow: hidden;
+    border-radius: 7px;
+
     
 }
 
@@ -4653,6 +4658,48 @@ input[type="button"].btn--primary:focus {
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
 }
+
+/* ------------------------------------------------------------------- 
+ *Animation Skills Bar
+ * ------------------------------------------------------------------- */
+
+.percentSlideAnim {
+    animation: slideSkills 1.7s ease-in infinite;
+}
+
+.percentSlide {
+
+}
+
+.percentSlide1 {
+    animation-delay: .1s;
+}
+
+.percentSlide2 {
+    animation-delay: .2s;
+}
+
+.percentSlide3 {
+    animation-delay: .3s;
+}
+
+.percentSlide4 {
+    animation-delay: .4s;
+}
+
+.percentSlide5 {
+    animation-delay: .5s;
+}
+
+@keyframes slideSkills {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+  
 
 /* ------------------------------------------------------------------- 
  * responsive:
