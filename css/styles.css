@@ -3447,7 +3447,7 @@ input[type="button"].btn--primary:focus {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/header-bg-3000.jpg);
+    background-image: url(../images/portfolio/lac_bleu.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -4557,6 +4557,7 @@ input[type="button"].btn--primary:focus {
     margin: 0 0 0 .4rem;
     position: relative;
     top: -6%;
+    gap: 1rem;
 }
 
 .s-footer__social a {
