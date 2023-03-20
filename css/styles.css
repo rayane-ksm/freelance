@@ -4133,7 +4133,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .modal-popup__details {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgb(0, 0, 0);
     font-size: var(--text-sm);
     line-height: calc(var(--vspace-1_5) - 2px);
     border: 1px solid rgba(255, 255, 255, 0.15);
