@@ -3858,9 +3858,9 @@ input[type="button"].btn--primary:focus {
     .s-about {
         padding-top: var(--vspace-5);
     }
-    .s-about__pic {
+    /* .s-about__pic {
         display: none;
-    }
+    } */
 }
 
 @media screen and (max-width: 600px) {
